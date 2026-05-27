@@ -1,0 +1,175 @@
+# Zombie Forest Shooter
+
+Game shooter survival berbasis web menggunakan **Phaser 3 + TypeScript + Vite**.
+
+---
+
+# 🎮 Features
+
+- WASD movement
+- Mouse aiming
+- Auto shooting
+- Dash movement
+- Enemy zombie AI
+- Procedural forest background
+- HP system
+- Score system
+- Game over system
+- Camera shake & recoil
+- Bullet trail effect
+- Responsive fullscreen
+
+---
+
+# 🕹 Controls
+
+| Action | Key |
+|---|---|
+| Move | WASD |
+| Shoot | Hold Left Click |
+| Dash | SPACE |
+| Restart | R |
+
+---
+
+# 🛠 Tech Stack
+
+- Phaser 3
+- TypeScript
+- Vite
+
+---
+
+# 📦 Installation
+
+## Clone repository
+
+```bash
+git clone https://github.com/USERNAME/shooter-game.git
+```
+
+## Masuk folder project
+
+```bash
+cd shooter-game
+```
+
+## Install dependencies
+
+```bash
+npm install
+```
+
+## Jalankan development server
+
+```bash
+npm run dev
+```
+
+---
+
+# 🚀 Build Production
+
+```bash
+npm run build
+```
+
+---
+
+# 📁 Project Structure
+
+```txt
+shooter-game/
+├── public/
+│   └── assets/
+│       ├── player.png
+│       ├── enemy.png
+│       └── bullet.png
+│
+├── src/
+│   ├── scenes/
+│   │   └── MainScene.ts
+│   │
+│   └── main.ts
+│
+├── package.json
+├── vite.config.ts
+└── README.md
+```
+
+---
+
+# 🎨 Assets
+
+Masukkan asset ke folder:
+
+```txt
+public/assets/
+```
+
+Required assets:
+
+- player.png
+- enemy.png
+- bullet.png
+
+---
+
+# 🌲 Gameplay
+
+Bertahan hidup selama mungkin dari serangan zombie di hutan.
+
+- Enemy akan terus spawn
+- Semakin tinggi score, enemy semakin cepat
+- Gunakan dash untuk menghindar
+- Kalah jika HP habis
+
+---
+
+# 📸 Screenshots
+
+Tambahkan screenshot game kamu di sini nanti.
+
+---
+
+# 🔥 Future Features
+
+- Weapon system
+- Reload & ammo
+- Boss zombie
+- Health pickup
+- Multiplayer
+- Sound effects
+- Animation sprite sheet
+- Minimap
+- Wave system
+- Skill tree
+- Mobile controls
+
+---
+
+# 🌐 Deploy
+
+## Deploy ke Vercel
+
+Install vercel:
+
+```bash
+npm install -g vercel
+```
+
+Deploy:
+
+```bash
+vercel
+```
+
+Atau langsung import repository ke:
+
+- https://vercel.com
+
+---
+
+# 👨‍💻 Author
+
+Made with ❤️ using Phaser 3 + TypeScript
